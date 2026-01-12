@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 GitHub Discussions
+    url: https://github.com/YOUR_USERNAME/sysadmin-roadmap-obsidian/discussions
+    about: Задать вопрос или обсудить идею
+  - name: 📖 Documentation
+    url: https://github.com/YOUR_USERNAME/sysadmin-roadmap-obsidian/blob/main/README.md
+    about: Прочитать документацию проекта

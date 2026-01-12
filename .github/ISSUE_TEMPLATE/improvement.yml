@@ -1,0 +1,63 @@
+name: ✨ Improvement
+description: Предложить улучшение существующего контента
+title: "[IMPROVEMENT] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Знаешь как улучшить roadmap? Отлично! 🌟
+        
+  - type: input
+    id: file
+    attributes:
+      label: 📍 Что улучшить?
+      description: Файл или тему
+      placeholder: technologies/Docker.md
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: type
+    attributes:
+      label: 🎯 Тип улучшения
+      options:
+        - Добавить примеры кода/команд
+        - Улучшить объяснения
+        - Добавить ссылки на ресурсы
+        - Исправить структуру
+        - Улучшить форматирование
+        - Добавить диаграммы/визуализацию
+        - Другое
+    validations:
+      required: true
+      
+  - type: textarea
+    id: current
+    attributes:
+      label: 📋 Текущая ситуация
+      description: Что сейчас не так или можно лучше?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 💡 Предложение
+      description: Как именно можно улучшить?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: examples
+    attributes:
+      label: 📝 Примеры (опционально)
+      description: Есть примеры как это сделано в других местах?
+      
+  - type: checkboxes
+    id: help
+    attributes:
+      label: ✋ Готов помочь?
+      options:
+        - label: Могу сделать это сам и создать PR
+        - label: Только предложение, не могу реализовать

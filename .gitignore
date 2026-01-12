@@ -1,0 +1,9 @@
+.trash/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*~

